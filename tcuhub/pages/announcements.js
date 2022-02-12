@@ -10,8 +10,9 @@ import AnnouncementItems from '../components/AnnouncementItems';
 import HotTopicsItems from '../components/HotTopicsItems';
 import RecommendedUser from '../components/RecommendedUser';
 import Link from 'next/link';
+import MainAnnouncementsItems from '../components/MainAnnouncementsItems';
 
-export default function Home() {  
+export default function Announcements() {  
 
 
   return (
@@ -69,7 +70,7 @@ export default function Home() {
           </div>
          {/* Newsfeed COntent*/}
           <div className='flex justify-center rounded h-screen sticky'>
-            <NewsfeedItems />
+            <MainAnnouncementsItems />
           </div>
 
          {/* Right Side Section */}
